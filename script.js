@@ -1,5 +1,5 @@
 function myFunction() {
-  var x = document.getElementById("div1");
+  var x = document.getElementsByClassName("div1");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
